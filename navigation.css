@@ -1,0 +1,46 @@
+.menu li{
+    display: inline;
+    margin-top: 40px;
+}
+.menu__li a{
+    text-decoration: none;
+    margin-right: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(31, 46, 53, 0.8);
+    transition: color 0.2 linear;
+}
+
+.menu__li a:hover{
+    color: #1F2041;
+}
+.menu__list{
+    display: flex;
+}
+.sub-menu__list{
+    margin-top: 5px;
+    display: none;
+}
+
+.sub-menu__link{
+    display: block;
+    position: absolute;
+    padding-top: 5px;
+    z-index: 1;
+}
+
+.menu__list>li:hover .sub-menu__list{
+    display: block;
+}
+.point{
+    margin-top: 20px;
+}
+
+.more{
+    margin-left: -50px;
+    margin-right: 50px;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
